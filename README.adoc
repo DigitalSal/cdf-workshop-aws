@@ -254,16 +254,7 @@ image:images/step2/2-1-4-2.PNG[]  +
 
 
 === Step 2.2: Testing the flow
-Testing the Data Flow: To test the flow we need to first start the test session. Click on `Flow Options` on the top right corner and then click `Start` under `Test Session` section. +
-image:images/step2/2-2-1.PNG[]  +
-
-In the next window, click `Start Test Session`. +
-image:images/step2/2-2-2.PNG[]  +
-
-The activation should take about a couple of minutes. While this happens, you will see this at the top right corner of your screen. +
-image:images/step2/2-2-3.PNG[]  +
-
-Once the Test Session is ready you will see the following message on the top right corner of your screen. +
+Ensure the Test Session is ready. You will see the following message on the top right corner of your screen. +
 image:images/step2/2-2-4.PNG[]  +
 
 Run the flow by right clicking the `empty part` of the canvas and selecting `Start`. +
