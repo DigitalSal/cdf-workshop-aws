@@ -122,7 +122,7 @@ image:images/step2/2-1-2-2.PNG[]  +
 
 Add the following parameters. +
 `Name`: `S3 Directory`. +
-`Value`: `LabData`. +
+`Value`: `/my-data/LabData/<wuserXX>`. +
 Click on `Apply`. +
 image:images/step2/2-1-2-3.PNG[]  +
 
