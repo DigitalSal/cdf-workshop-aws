@@ -298,7 +298,7 @@ image:images/step2/2-4-1.PNG[]  +
 Click on the flow and you should see the option to `Deploy`. Click on 'Version 1' and then `Deploy`.
 image:images/step2/2-4-2.PNG[]  +
 
-Select the CDP `Target Environment' from the drop down. Make sure you select the environment given by the instructor. (Ex: `emeaworkshop-environ`). Click `Continue`. +
+Select the CDP `Target Environment' from the drop down. Make sure you select the environment given by the instructor. (Ex: `amer-workshop`). Click `Continue`. +
 image:images/step2/2-4-3.PNG[]  +
 
 Deployment Name: Give a unique name to the deployment. Click `Next ->`. +
@@ -312,7 +312,7 @@ Set the `Parameters` and click `Next`. +
 `CDP Workload User`: `The username assigned to you`. Ex: `wuser00`. +
 `CDP Workload User Password`: `Workload User password set by you in 'Step 1.1: Define Workload Password'`. +
 `CDP Environment` : DummyParameter +
-`S3 Directory`: `LabData` +
+`S3 Directory`: `\my-data\LabData\<wuserXX>` +
 image:images/step2/2-4-6.PNG[]  +
 
 Set the cluster size. +
