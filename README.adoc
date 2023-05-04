@@ -555,6 +555,8 @@ image:images/step3/3-2-1e.PNG[]  +
 === Operationalizing Externally Developed Data Flows with CDF-PC
 
 === Step 3.3 : Import the Flow into the CDF-PC Catalog
+link:http://drive.google.com/file/d/1YI5FFOdI4MOwHPOoxf2L8gvPCH2DGU2Q/view?usp=sharing[Download syslog-to-kafka.json,window=_blank]
+
 Open the CDF-PC data service and click on `Catalog` in the left tab. Select `Import Flow Definition` on the Top Right. +
 image:images/step4/4-1-0.PNG[]  +
 
