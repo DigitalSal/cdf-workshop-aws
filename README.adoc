@@ -730,7 +730,7 @@ image:images/step5/5-1h.PNG[]  +
 
 `Name`: `{user-id}_cdp_kafka`. (Ex: `wuser00_cdp_kafka`) +
 `Brokers`: (Comma-separated List as shown below) +
-`kafka-smm-cluster-emea-corebroker2.emeawork.dp5i-5vkq.cloudera.site:9093,kafka-smm-cluster-emea-corebroker0.emeawork.dp5i-5vkq.cloudera.site:9093,kafka-smm-cluster-emea-corebroker1.emeawork.dp5i-5vkq.cloudera.site:9093` +
+`amer-smm-cluster-corebroker1.amer-wor.dp5i-5vkq.cloudera.site:9093, amer-smm-cluster-corebroker0.amer-wor.dp5i-5vkq.cloudera.site:9093, amer-smm-cluster-corebroker2.amer-wor.dp5i-5vkq.cloudera.site:9093` +
 
 `Protocol`: `SASL/SSL` +
 `SASL Username`: `<workload-username>`. (Ex: wuser00). +
