@@ -23,6 +23,22 @@ For the ease of carrying out the workshop and considering the time at hand, we h
 (4) Have access to the file `syslog-to-kafka.json`. +
 (5) Environment should be enabled as part of the CDF Data Service. +
 
+== Preface
+
+Logging Modernization is a holistic approach towards unlocking the value of machine generated data by lowering processing costs and enabling a whole range of new analytics use cases: +
+
+(1) Edge processing for cost-effective data movement +
+(2) Intelligent, content-based routing, transformation and enrichment +
+(3) Sending data to alternative systems based on value, content, and use case +
+
+The Hands On Labs in this workshop will take you through how to use the Cloudera DataFlow portfolio of services to quickly collect, store, filter and stream syslog data for real-time analytics. +
+
+*CDF Workshop Reference Architecture* +
+*(1) Flow 1:*  Collect and store syslog data in an S3 Bucket +
+*(2) Flow 2:*  Collect, filter and stream syslog data to Kafka for Real-time analytics +
+
+image::./images/step0/RefArch.png[]
+
 == Step 0: Instructor Explanation
 Step 0 basically talks about verifying different aspects w.r.t to access and connections before we could begin with the actual steps. +
 Your instructor will guide you through this. +
