@@ -398,13 +398,13 @@ For this we will be leveraging the DataHubs which have already been created - `a
 `Note that the above names might be different depending upon your environment.`
 
 === Step 3.1: Create a Kafka Topic
-Go to the `Environments` tab as shown in the screenshot. Click on to your environment. (Ex: `emearworkshop-environ`). +
+Go to the `Environments` tab as shown in the screenshot. Click on to your environment. (Ex: `amer-workshop`). +
 image:images/step3/3-1-1.PNG[]  +
 
-Click on the Data Hub for Stream Messaging (Ex: `kafka-smm-cluster-emea`). +
+Click on the Data Hub for Stream Messaging (Ex: `amer-smm-cluster`). +
 image:images/step3/3-1-2.PNG[]  +
 
-Login to `Streams Messaging Manager` by clicking the appropriate hyperlink in the Streams Messaging Datahub (Ex: `kafka-smm-cluster-emea`). +
+Login to `Streams Messaging Manager` by clicking the appropriate hyperlink in the Streams Messaging Datahub (Ex: `amer-smm-cluster`). +
 image:images/step3/3-1-3.PNG[]  +
 
 Click on `Topics` in the left tab. +
@@ -581,7 +581,7 @@ image:images/step4/4-2-1.PNG[]  +
 Click on the Flow, you should see the following. You should see a `Deploy` Option appear shortly. Then click on `Deploy`. +
 image:images/step4/4-2-2.PNG[]  +
 
-Select the CDP `Target Environment` (Ex: `emeaworkshop-environ`) where this flow will be deployed, then click `Continue`. +
+Select the CDP `Target Environment` (Ex: `amer-workshop`) where this flow will be deployed, then click `Continue`. +
 image:images/step4/4-2-3.PNG[]  +
 
 Give the deployment a unique name (Ex: `{user_id}_syslog_to_kafka`), then click `Next`. +
@@ -641,10 +641,10 @@ To run queries on the `SQL Stream Builder` you need to have your KeyTab `unlocke
 
 === Step 4.1 (a): Unlock your KeyTab
 
-Click on the `Environment` in the left pane. Click on the environment assigned to you. (Ex: `emeaworkshop-environ`). +
+Click on the `Environment` in the left pane. Click on the environment assigned to you. (Ex: `amer-workshop`). +
 image:images/step1/1-5-1.PNG[]  +
 
-Click on the Data Hub cluster for stream analytics. (Ex: `ssb-analytics-cluster-emea`)
+Click on the Data Hub cluster for stream analytics. (Ex: `amer-csa-cluster`)
 image:images/step1/1-5-2.PNG[]  +
 
 Open the SSB UI by clicking on `Streaming SQL Console`. +
@@ -661,10 +661,10 @@ image:images/step1/1-5-6.PNG[]  +
 image:images/step1/1-5-7.PNG[]  +
 
 === Step 4.1 (b): Reset your KeyTab 
-Click on the `Environment` in the left pane. Click on the environment assigned to you. (Ex: `emeaworkshop-environ`). +
+Click on the `Environment` in the left pane. Click on the environment assigned to you. (Ex: `amer-workshop`). +
 image:images/step1/1-5-1.PNG[]  +
 
-Click on the Data Hub cluster for stream analytics. (Ex: `ssb-analytics-cluster-emea`)
+Click on the Data Hub cluster for stream analytics. (Ex: `amer-csa-cluster`)
 image:images/step1/1-5-2.PNG[]  +
 
 Open the SSB UI by clicking on `Streaming SQL Console`. +
@@ -700,7 +700,7 @@ image:images/step1/1-5-7.PNG[]  +
 
 In case you are not on the SQL Stream Builder Interface you may reach so by following the next 2 screenshots, else you can continue from the 3rd screenshot. +
 
-Go to the SQL Stream Builder UI: SSB Interface can be reached from the DataHub that is running the Streams Analytics, in our case - `ssb-analytics-cluster-emea`. +
+Go to the SQL Stream Builder UI: SSB Interface can be reached from the DataHub that is running the Streams Analytics, in our case - `amer-csa-cluster`. +
 Within the DataHub, click on `Streaming SQL Console`.  +
 image:images/step5/5-1a.PNG[]  +
 image:images/step5/5-1b.PNG[]  +
