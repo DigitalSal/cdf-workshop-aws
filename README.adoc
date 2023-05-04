@@ -439,9 +439,9 @@ Save the name of the broker list in a notepad. +
 image:images/step1/1-3-5.PNG[]  +
 
 Example +
-`kafka-smm-cluster-emea-corebroker2.emeawork.dp5i-5vkq.cloudera.site:9093` +
-`kafka-smm-cluster-emea-corebroker0.emeawork.dp5i-5vkq.cloudera.site:9093` +
-`kafka-smm-cluster-emea-corebroker1.emeawork.dp5i-5vkq.cloudera.site:9093` +
+`amer-smm-cluster-corebroker1.amer-wor.dp5i-5vkq.cloudera.site:9093` +
+`amer-smm-cluster-corebroker0.amer-wor.dp5i-5vkq.cloudera.site:9093` +
+`amer-smm-cluster-corebroker2.amer-wor.dp5i-5vkq.cloudera.site:9093` +
 
 
 === Step 3.2: Create a Schema in Schema Registry
