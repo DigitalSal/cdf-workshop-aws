@@ -394,7 +394,7 @@ The existing NiFi Flow will perform the following actions.
 
 Note that a parameter context has already been defined in the flow and the queues have been uniquely named. +
 
-For this we will be leveraging the DataHubs which have already been created - `ssb-analytics-cluster-emea`, `kafka-smm-cluster-emea`. +
+For this we will be leveraging the DataHubs which have already been created - `amer-csa-cluster`, `amer-smm-cluster`. +
 `Note that the above names might be different depending upon your environment.`
 
 === Step 3.1: Create a Kafka Topic
