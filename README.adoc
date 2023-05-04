@@ -611,6 +611,7 @@ Click `Next`. +
 image:images/step4/4-2-7.PNG[]  +
 
 
+
 On the next page, define sizing and scaling details and then click `Next`. +
 `Size`: `Extra Small` +
 `Auto Scaling`: `Enabled` +
