@@ -22,6 +22,7 @@ For the ease of carrying out the workshop and considering the time at hand, we h
 (3) Data provider should be configured in SQL Stream Builder. +
 (4) Have access to the file `syslog-to-kafka.json`. +
 (5) Environment should be enabled as part of the CDF Data Service. +
+(6) https://github.com/DigitalSal/cdf-workshop-aws/blob/master/ranger-config.adoc[Ranger Policies Configured]
 
 == Preface
 
